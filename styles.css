@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  Calibri;
+}
+
+html {
+    background-color: bisque;
+}
+
+.container {
+    background-color: white;
+    width: 850px;
+    margin: 50px auto;
+}
+
+.content {
+    padding: 5px;
+    font-size: 28px;
+}
+    
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
